@@ -1,6 +1,6 @@
 # Project 1 Generative Text
 
-Your Name, yourcontact@ucsd.edu
+Kasidech Tantipanichaphan, ktantipa@ucsd.edu
 
 (Your teammate's contact info, if appropriate)
 
@@ -8,11 +8,17 @@ Your Name, yourcontact@ucsd.edu
 
 Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions.
 
+As Halloween event is approaching, I decided to rewrite a new horror film by using a script from my favorite movies, IT chapter one and two. The purpose for this project is that I wanted to create a ‘bonus’ chapter for this movie, even though the storyline is already finished. For visualization, I decided to pick several scenes from the movie in order to complement the generated text. The scene makes sense for that generated text. For building the model, I set the embedding dimension to 1024. In the neural network model, I decided to use the LSTM layer instead. I decided to add two more LSTM layers and dropouts, because... I trained with 50 epochs with the temperature value around 0.5. Based on the experiment, the higher temperature would cause nonsense wording. On the other hand, temperature close to zero would cause a repetition of words. In the context of the script, some of the sentences seems to make sense and some didn’t.  
+
+
 ## Model/Data
 
 Briefly describe the files that are included with your repository:
 - trained models
 - training data (or link to training data). what is your corpus?
+
+
+The data that I fetched is from the slugscript website. Basically it contains scripts for most of the movies. The movie that I searched and used in this case is called “IT”. First, I attempted to use the beautiful soup to extract the script from the html. However, I believe that getting the script directly from the website and saving it as a text file would be an easier approach. The text file is saved in this github.
 
 ## Code
 
