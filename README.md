@@ -4,6 +4,8 @@ Kasidech Tantipanichaphan, ktantipa@ucsd.edu
 
 (Your teammate's contact info, if appropriate)
 
+[[https://github.com/ucsd-ml-arts/generative-text-ktantipa/images/it-chapter-two.png|alt=octocat]]
+
 ## Abstract
 
 Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions.
