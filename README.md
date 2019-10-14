@@ -19,9 +19,6 @@ Briefly describe the files that are included with your repository:
 - trained models
 - training data (or link to training data). what is your corpus?
 
-
-The data that I fetched is from the slugscript website. Basically it contains scripts for most of the movies. The movie that I searched and used in this case is called “IT”. First, I attempted to use the beautiful soup to extract the script from the html. However, I believe that getting the script directly from the website and saving it as a text file would be an easier approach. The text file is saved in this github.
-
 ## Code
 
 Your code for generating your project:
