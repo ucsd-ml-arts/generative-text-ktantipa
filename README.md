@@ -4,7 +4,7 @@ Kasidech Tantipanichaphan, ktantipa@ucsd.edu
 
 (Your teammate's contact info, if appropriate)
 
-[[https://github.com/ucsd-ml-arts/generative-text-ktantipa/images/it-chapter-two.png|alt=octocat]]
+![alt text](https://github.com/ucsd-ml-arts/generative-text-ktantipa/images/it-chapter-two.png)
 
 ## Abstract
 
