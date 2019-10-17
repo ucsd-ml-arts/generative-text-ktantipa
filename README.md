@@ -12,7 +12,7 @@ Include your abstract here. This should be one paragraph clearly describing your
 
 As the Halloween event is approaching, I decided to remake the horror story by using a text generator based on one of the first R.L. Stine masterpiece that makes him live up to his title: ‘Goosebumps: Welcome to Dead House’. The goal of this project is that I wanted to create a “remake’’ for this book by using rnn. See how the text generator could describe the story in its own ways. As a brief storyline, this is the story of the Benson family and their new home in Dark Falls. Come to find out, everyone in their new town is a zombie, and that every year they require new blood. That fresh blood comes from tricking families into moving into the so-called "dead house" and then murdering them. According to Glamour blog, this Goosebumps tale was our first prep for a zombie apocalypse, long before The Walking Dead. 
 
-*My orginal idea was to generate the IT screenplay, however the remake line story doesn't make sense therefore I decided to change the story but keeping the same horror concept.
+*My orginal idea was to generate the IT screenplay, however the remake story line doesn't make sense therefore I decided to change the story but keeping the same horror concept.
 
 ## Model/Data
 
