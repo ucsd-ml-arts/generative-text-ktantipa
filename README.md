@@ -57,28 +57,6 @@ The final result of the generated text/story is in this github, the file is call
 
 ## Technical Notes
 
-All the technical implementation is work in the ucsd datahub.
-These are the additional imports that I used before performing a web scraping
-
-![Alt text](https://github.com/ucsd-ml-arts/generative-text-ktantipa/blob/master/Images/Screen%20Shot%202019-10-17%20at%204.34.33%20PM.png)
-
-Basically I import requests, bs4, Beautiful Soup from bs4, parser from tika, and pyPDF2.
-You have to do pip install bs4, tika, as well as pip install PyPDF2. 
-
-After web scraping is done (the steps are mentioned above in the data section)
-The next step is to manipulate the model. The following were my specification:  
-
-![Alt text](https://github.com/ucsd-ml-arts/generative-text-ktantipa/blob/master/Images/Screen%20Shot%202019-10-17%20at%204.12.02%20PM.png)
-
- I used the batch size of 64, the buffer size of 10000, the embedding dimension of 256, epochs of 50, the sequence length of 200, and the rnn units of 1024. 
-
-For the architecture model, I used embedding layer as the input and added two LSTM layers and several dropouts. The dense layer is the output. I believe that this model is more efficient than the example one. Next page is the example of my architecture model. 
-
-
-![Alt text](https://github.com/ucsd-ml-arts/generative-text-ktantipa/blob/master/Images/Screen%20Shot%202019-10-17%20at%204.15.14%20PM.png)
-
-
- The temperature value that I set is around 0.5. Based on the experiment, the higher temperature would cause nonsense wording. On the other hand, temperature close to zero would cause a repetition of words. 
 
 ## Reference
 
