@@ -4,7 +4,7 @@ Kasidech Tantipanichaphan, ktantipa@ucsd.edu
 
 (Your teammate's contact info, if appropriate)
 
-![Alt text](https://github.com/ucsd-ml-arts/generative-text-ktantipa/blob/master/Images/entertainment-2015-10-goosebumps-dead-house-main%20(1).jpg | width=50)
+![Alt text](https://github.com/ucsd-ml-arts/generative-text-ktantipa/blob/master/Images/entertainment-2015-10-goosebumps-dead-house-main%20(1).jpg =250x250)
 
 ## Abstract
 
