@@ -57,7 +57,7 @@ All the code files are in this github
 
 ## Results
 
-The final result of the generated story can be found in this github, the file is called 'Goosebumps_generated_text_(Final remake).pdf'
+The final result of the generated story can be found in this github, the file is called 'Goosebumps_generated_text_(Final_remake).pdf'
 
 ## Technical Notes
 
