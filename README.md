@@ -53,7 +53,7 @@ All the code files are in this github
 
 ## Results
 
-The final result of the generated text/story is in this github, the file is called 'Goosebumps_generated_text_(Remake).pdf'
+The final result of the generated story can be found in this github, the file is called 'Goosebumps_generated_text_(Remake).pdf'
 
 ## Technical Notes
 
