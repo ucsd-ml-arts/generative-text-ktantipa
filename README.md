@@ -50,7 +50,7 @@ After the steps above, the following becomes the new result of the content:
 
 ![Alt text](https://github.com/ucsd-ml-arts/generative-text-ktantipa/blob/master/Images/Screen%20Shot%202019-10-17%20at%204.04.05%20PM.png)
 
-The next step is to build the model:
+Before generating the text, we have to build the model:
 
 The training parameters are in the abstract.
 
@@ -58,7 +58,7 @@ For the architecture model, I used embedding layer as the input and added two LS
 
 The following is my trained model:
 
-<img src="https://github.com/ucsd-ml-arts/generative-text-ktantipa/blob/master/Images/Screen%20Shot%202019-10-14%20at%206.06.13%20PM.png" width="40%">
+<img src="https://github.com/ucsd-ml-arts/generative-text-ktantipa/blob/master/Images/Screen%20Shot%202019-10-14%20at%206.06.13%20PM.png" width="45%">
 
 ## Code
 
