@@ -16,7 +16,7 @@ As the Halloween event is approaching, I decided to remake the horror story base
 
 There are minor differences using a text generator. In the generated story, it turns out that everyone died at the end. However, in the original story everyone in the Benson family survived at the end, by escaping from the zombies town. Another difference is that Mr. Dawes, the real-estate agent turns out to be a zombie. When the original story, everyone that lives in that neighborhood is the zombie. Lastly, one of the characters is missing in the text, such as Karen. Otherwise, most of the generated text seems to conform to the original story.
 
-Regarding how the text is created. The first step is that I extracted the whole text from the book by using beautiful soup. The text contains in the website, contained in the data section. Basically, I perform web scraping and data cleaning in order to remove the stuff that is irrelevant to the text, such as title, page numbers, or appendix. The next thing is to build the model. For training, I used the batch size of 64, the buffer size of 10000, the embedding dimension of 256, epochs of 50, the sequence length of 200, and the rnn units of 1024. For the architecture model, I used embedding layer as the input and added two LSTM layers and several dropouts. The dense layer is the output. The temperature value that I set is around 0.5. Based on the experiment, the higher temperature would cause nonsense wording. On the other hand, temperature close to zero would cause a repetition of words. For the result of the script, some of the sentences seemed to make sense and some didn’t. Therefore, in order to create the story that makes sense, I manually picked the generated sentences to create the remake story. However, the originality of the generated sentences are kept. Due to the time limitation, the text could be better generated, if there is a chance to improve this assignment again in the future.
+Regarding how the text is created. The first step is that I extracted the whole text from the book by using beautiful soup. The text contains in the website, contained in the data section. Basically, I perform web scraping and data cleaning in order to remove the stuff that is irrelevant to the text, such as title, page numbers, or appendix. The next thing is to build the model. For training, I used the batch size of 64, the buffer size of 10000, the embedding dimension of 256, epochs of 50-70, the sequence length of 200, and the rnn units of 1024. For the architecture model, I used embedding layer as the input and added two LSTM layers and several dropouts. The dense layer is the output. The temperature value that I set is around 0.5. Based on the experiment, the higher temperature would cause nonsense wording. On the other hand, temperature close to zero would cause a repetition of words. For the result of the script, some of the sentences seemed to make sense and some didn’t. Therefore, in order to create the story that makes sense, I manually picked the generated sentences to create the remake story. However, the originality of the generated sentences are kept. Due to the time limitation, the text could be better generated, if there is a chance to improve this assignment again in the future.
 
 ## Model/Data
 
@@ -63,7 +63,7 @@ The following is my trained model:
 
 ## Code
 
-All the code files are in this github
+All the code files are in this github.
 
 ## Results
 
@@ -75,7 +75,7 @@ As mentioned, there are minor differences using a text generator. In the generat
 ## Technical Notes
 
 All the technical implementation is work in the ucsd datahub.
-These are the additional imports that I used before performing a web scraping
+These are the additional imports that I used before performing a web scraping:
 
 <img src="https://github.com/ucsd-ml-arts/generative-text-ktantipa/blob/master/Images/Screen%20Shot%202019-10-17%20at%204.34.33%20PM.png" width="30%">
 
