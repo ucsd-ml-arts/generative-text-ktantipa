@@ -9,7 +9,7 @@ Kasidech Tantipanichaphan, ktantipa@ucsd.edu
 
 ## Abstract
 
-*My original idea was to generate the IT screenplay, however I decided to change to Goosebumps: Welcome to the Dead House text since the storyline is a lot more interesting and easier to understand for the audience. (At the same time keeping the same halloween concept)*
+<sup>*My original idea was to generate the IT screenplay, however I decided to change to Goosebumps: Welcome to the Dead House text since the storyline is a lot more interesting and easier to understand for the audience. (At the same time keeping the same halloween concept)*</sup>
 
 
 As the Halloween event is approaching, I decided to remake the horror story based on one of the first R.L. Stine masterpiece that makes him live up to his title: ‘Goosebumps: Welcome to Dead House’,  by using a text generator. The goal of this project is that I wanted to create a “remake’’ for this book by using rnn. In order to see how the text generator could describe the story in its own ways. For visualization, I decided to draw out the scene in order to complement the generated text. The drawing process takes some time to finish, and the scene makes sense for that generated text. As a brief storyline, this is the story of the Benson family and their new home in Dark Falls. Come to find out, everyone in their new town is a zombie, and that every year they require new blood. That fresh blood comes from tricking families into moving into the so-called "dead house" and then murdering them. According to Glamour blog, this Goosebumps tale was our first prep for a zombie apocalypse, long before The Walking Dead. 
