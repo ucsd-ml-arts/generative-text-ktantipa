@@ -59,7 +59,7 @@ For the architecture model, I used embedding layer as the input and added two LS
 
 The following is my trained model:
 
-<img src="https://github.com/ucsd-ml-arts/generative-text-ktantipa/blob/master/Images/entertainment-2015-10-goosebumps-dead-house-main%20(1).jpg" width="40%">
+<img src="https://github.com/ucsd-ml-arts/generative-text-ktantipa/blob/master/Images/Screen%20Shot%202019-10-14%20at%206.06.13%20PM.png" width="40%">
 
 ## Code
 
@@ -77,7 +77,7 @@ As mentioned, there are minor differences using a text generator. In the generat
 All the technical implementation is work in the ucsd datahub.
 These are the additional imports that I used before performing a web scraping
 
-<img src="https://github.com/ucsd-ml-arts/generative-text-ktantipa/blob/master/Images/Screen%20Shot%202019-10-17%20at%204.34.33%20PM.png" width="40%">
+<img src="https://github.com/ucsd-ml-arts/generative-text-ktantipa/blob/master/Images/Screen%20Shot%202019-10-17%20at%204.34.33%20PM.png" width="30%">
 
 Basically I import requests, bs4, Beautiful Soup from bs4, parser from tika, and pyPDF2.
 You have to do pip install bs4, tika, as well as pip install PyPDF2. 
