@@ -30,10 +30,10 @@ This first part here is going to be the data cleaning process by using beautiful
 
 First I retrieve the contents on a page and examine them a bit.
 
-Make a variable called `link`, that stores the following URL (as a string):
+I make a variable called `link`, that stores the following URL (as a string):
 'https://archive.org/stream/GoosebumpsDeadHouse/GoosebumpsDeadHouse_djvu.txt' 
 
-Now, to open the URL, use `requests.get()` and provide `link` as its input. Store this in a variable called `page`.
+Now, to open the URL, use `requests.get()` and I provide `link` as its input. Store this in a variable called `page`.
 
 After that, make a variable called `soup` to parse the HTML using `BeautifulSoup`.
 
